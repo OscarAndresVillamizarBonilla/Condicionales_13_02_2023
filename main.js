@@ -1,8 +1,11 @@
-//if simple
-// el if simple es para acciones simples sin alternativa, solo hay una desicion
-let num = Number(prompt("Aca puedes obtener el resultado de un multiplo de 2, escribe un numero"));
-let resultado;
-if (num){
-    resultado = num*2;
-console.log(`Has ingresado el numero ${num} si lo multiplicamos por 2, sera ${resultado}`);
-};
+//if condicional
+// en el if condicional ya se tiene una opcion adicional en la cual se debe de cumplir una 
+// caracteristica o condicion para obtener una respuesta u otra
+
+let edad = Number(prompt("Escribe tu edad para poder validar tu entrada al establecimiento"))
+if (edad>=18) {
+console.log(`Tienes ${edad} años, eres mayor de edad, puedes ingresar`);
+}
+    else{
+        console.log(`Tienes ${edad} años, no eres mayor de edad, no puedes ingresar`);
+    }
